@@ -1,0 +1,17 @@
+# Local state
+.venv/
+runs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated data (regenerate with scripts/prepare_data.py)
+data/train.jsonl
+data/eval.jsonl
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

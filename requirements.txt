@@ -1,0 +1,3 @@
+# Everything the pure pipeline (app.data, scripts/prepare_data.py) needs.
+# CI installs exactly this — no torch, no model downloads.
+pytest==8.3.4
